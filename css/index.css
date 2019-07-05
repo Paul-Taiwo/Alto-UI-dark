@@ -2409,6 +2409,11 @@ th {
   background-color: #000;
   color: #fff
 }
+.theme-pink,
+[class*=theme-] .theme-pink {
+  background: linear-gradient(45deg, #0d0b17, #d21636);
+  color: #fff
+}
 
 .theme-light-dark,
 [class*=theme-] .theme-light-dark {
@@ -5669,6 +5674,10 @@ textarea.success {
   width: 100%;
 }
 
+.is-open {
+  background: linear-gradient(45deg, #0d0b17, #d21636);
+}
+
 .alto-header-wrapper.is-open,
 .alto-header-wrapper.is-sticky {
   padding-top: 4.5rem
@@ -6319,7 +6328,7 @@ textarea.success {
 }
 
 .hero-wrapper .hero-content[data-v-585cf04c] {
-  z-index: 11
+  z-index: 3
 }
 
 .hero-wrapper .hero-content-header[data-v-585cf04c] {

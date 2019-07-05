@@ -4,6 +4,7 @@ Project: ALTO - High Fidelity Music Streaming
 Version: 2.0.0
 Assigned to: Theme Forest
 -------------------------------------------------------------------*/
+
 (function($) {
     "use strict";
     var music = {
